@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import { Card, Button, CardTitle, CardText } from 'reactstrap';
 
-function Xxxx (props){
-    
-    return (
+import './App.css';
+import travel from './../images/travel.jpg';
 
+function Main(props) {
+    return(
+        <div>
+            <img src={travel} className="Main-background" alt="World travel illustration" />
+        </div>
     )
 }
 
-export default Xxxxx;
+export default Main;

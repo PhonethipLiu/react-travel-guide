@@ -1,14 +1,12 @@
 import React from 'react';
-import logo from './../images/xxxx.svg';
+import './App.css';
 
 function Header(props) {
     return(
-        <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+        <header>
             <h1 className="App-title">{props.title}</h1>
-            </header>
+        </header>
     )
-
 }
 
 export default Header;
